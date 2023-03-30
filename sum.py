@@ -8,7 +8,7 @@ parser.add_argument('output_file', type=str, help='the name of the file to save 
 args = parser.parse_args()
 
 # Set up OpenAI API credentials
-openai.api_key = "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"
+openai.api_key = ""
 # Load the book text from file
 with open(args.input_file, 'r') as f:
     book_text = f.read()
